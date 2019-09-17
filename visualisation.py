@@ -7,7 +7,7 @@ ave_inflammation=np.mean(
   axis=0
 )
 plt.plot(ave_inflammation)
-max_inlammation=p.max(
+max_inlammation=np.max(
   data,
   axis=0
 )
